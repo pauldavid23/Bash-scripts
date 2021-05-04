@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# author Paul Gelario
+# date: 4/28/21
+# desc: create a case statement script. 
+
+echo 
+echo
+echo Please choose one: 
+echo 'a) list all files'
+echo 'b) create an error file'
+echo 'c) show the calendar today'
+echo 'd) show all processes'
+	
+	read choice
+	case $choice in 
+	a) ls;;
+	b) mkdir cluch-error;;
+	c) cal;;
+	d) ps -ef;;
+	*) echo option not caught!! 
+	esac

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# author Paul 
+# date: 4/28/21
+# desc: create a do-while script
+
+
+count=10
+
+while [ $count -ge 0 ]
+	do 
+		if [ $count == 0 ]
+		then 
+		echo "BOOM!"
+		else 
+		echo $count before explosion
+		fi
+		(( count-- ))
+	done
+	 
+	

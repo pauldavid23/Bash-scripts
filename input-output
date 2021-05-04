@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#author: Paul 
+#date: 4/27/21
+#desc: An input and output shell script. 
+
+
+echo "Hello" 
+echo "What is you name?" 
+
+read name
+
+echo "Hello" $name
+
+

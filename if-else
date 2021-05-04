@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#author Paul
+#date 4/27/21
+#desc: An if-else script
+
+a=4
+
+if [ $a -eq 4 ] 
+then
+echo $a is equal to 4. 
+else
+echo variable  is equal to $a
+fi
